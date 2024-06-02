@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNGpractice.PropertFile"/>
+      <class name="abc.SiblingPath"/>
+      <class name="TestNGpractice.Annotations"/>
+      <class name="TestNGpractice.DayTwo"/>
+      <class name="abc.April29"/>
+      <class name="TestNGpractice.WindowsHandling"/>
+      <class name="abc.TableHandle"/>
+      <class name="abc.Prop"/>
+      <class name="abc.UploadFile"/>
+      <class name="TestNGpractice.PracticeWindows"/>
+      <class name="abc.staleelementRef"/>
+      <class name="TestNGpractice.waits"/>
+      <class name="abc.dataprovder"/>
+      <class name="abc.SizeOfText"/>
+      <class name="abc.AuthenticationPopup"/>
+      <class name="abc.ContainXPath"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

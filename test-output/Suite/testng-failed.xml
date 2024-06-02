@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="paas" value="1234"/>
+    <parameter name="id" value="Abhishek"/>
+    <classes>
+      <class name="TestNGpractice.DemoPara">
+        <methods>
+          <include name="loginPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestNGpractice.DemoPara -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="paas" value="12345"/>
+    <parameter name="browser" value="edge"/>
+    <parameter name="id" value="Titan"/>
+    <classes>
+      <class name="TestNGpractice.DemoPara">
+        <methods>
+          <include name="para" invocation-numbers="0"/>
+          <include name="loginPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestNGpractice.DemoPara -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
